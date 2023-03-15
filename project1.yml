@@ -1,6 +1,6 @@
 ---
 - name: install and start apache
-  hosts: target
+  hosts: all
   vars_files: vars/vars.yml
 
   tasks:
